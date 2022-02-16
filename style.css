@@ -113,3 +113,67 @@ video {
 audio {
     width: 100%;
 }
+
+@media screen and (min-width: 769px) {
+    #Descripcion {
+        font-size: 30px;
+    }
+    #Bannerh1 {
+        color: white;
+        font-size: 50px;
+    }
+    #Bannerp {
+        color: white;
+        font-size: 20px;
+    }
+    #Titulo {
+        font-size: 40px;
+    }
+    #HobbiesP {
+        font-size: 40px;
+    }
+    #ProjectsP {
+        font-size: 35px;
+    }
+    #ThesisP {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    #Bannerh1 {
+        color: white;
+        font-size: 100px;
+    }
+    #Bannerp {
+        color: white;
+        font-size: 50px;
+    }
+    #Titulo {
+        font-size: 60px;
+    }
+    #Subtitulo {
+        font-size: 90px;
+    }
+    #Descripcion {
+        font-size: 60px;
+    }
+    #HobbiesP {
+        font-size: 60px;
+    }
+    #ProjectsP {
+        font-size: 50px;
+    }
+    #ThesisP {
+        font-size: 50px;
+    }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 768px) {
+    #Descripcion {
+        font-size: 15px;
+    }
+}
