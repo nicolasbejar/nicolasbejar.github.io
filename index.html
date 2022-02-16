@@ -1,61 +1,181 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="with=device-width, initial scale = 1.0">
-    <Title>My App</Title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <link rel="shortcut icon" href="#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <base href="/">
+
+
 </head>
 
 <body>
-    <!--Bootstrap JS Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <image class="navbar-brand" href="#" src="https://img.icons8.com/dotty/80/26e07f/mesh.png" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Projects</a>
-                    <a class="nav-link" href="#">Resume</a>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <image class="navbar-brand" href="#" src="https://img.icons8.com/dotty/80/26e07f/mesh.png" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Hobbies">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Thesis">Thesis</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
 
-    <div class="HeroContainer">
-        <div class="HeroBg">
-            <video class="Video" width="100%" autoPlay loop muted src="images/video.mp4" type='video/mp4' />
+    <!--Banner-->
+    <div id="Banner">
+        <div id="Banner-Text">
+            <h1 id="Bannerh1">Computer Science</h1>
+            <h1 id="Bannerh1">&</h1>
+            <h1 id="Bannerh1">Industrial Engineering Student</h1>
+            <p id="Bannerp">Currently in the final semester of my degrees, looking for professional experience. I consider myself a determined and hardworking person who is willing to learn and develop personally as well as professionally. Interested in machine learning,
+                data science and finance</p>
         </div>
-        <div class="HeroContent">
-            <h1 class="HeroH1">Computer Science</h1>
-            <h1 class="HeroH1">&</h1>
-            <h2 class="HeroH1"> Industrial Engineering Student</h1>
+    </div>
 
-                <p class="HeroP">
-                    Currently in the final semester of my degrees, looking for professional experience. I consider myself a determined and hardworking person who is willing to learn and develop personally as well as professionally. Interested in machine learning, data science
-                    and finance
-                </p>
+    <!--About 1-->
+    <div id="About" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <div id="TextWrap">
+                    <p id="Titulo">EDUCATION</p>
+                    <h1 id="Subtitulo">Industrial Engineering</h1>
+                    <p id="Descripcion">Industrial Engineering student at Universidad de Los Andes. Interested in finance, optimization and applied machine learning to finance. Experience programming in R, VBA and Python. Knowledge in statistics and probability models.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img id="Img1" src="images/svg-1.svg" alt="Image Industrial Engineering"></img>
+            </div>
+        </div>
+    </div>
+
+
+    <!--About 2-->
+    <div id="About2" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <div id="TextWrap">
+                    <p id="Titulo">EDUCATION</p>
+                    <h1 id="Subtitulo">Computer Science</h1>
+                    <p id="Descripcion">Software Engineering student at Universidad de Los Andes. Interested in FinTech, applying machine learning to finance and other management areas. Experience programming in Java, Python, using frameworks such as Django and AngularJs
+                        and working with relational and non-relational databases such as SQL and MongoDB.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img id="Img1" src="images/svg-2.svg" alt="Image Computer Science"></img>
+            </div>
+        </div>
+    </div>
+
+    <!--Hobbies-->
+    <div id="Hobbies" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="TextWrap">
+                    <p id="Titulo">Hobbies</p>
+                    <p id="HobbiesP">
+                        My main hobbies are playing squash, learning new things on Youtube and spending time with friends. Some times when I also get the chance to go to the sea I like to practice water sport such as watersky and windsurf
+                    </p>
+                </div>
+            </div>
 
         </div>
     </div>
 
 
-    <!--
-    <HeroSection/>
-    <InfoSection {...homeObjOne}/>
-    <InfoSection {...homeObjTwo}/>
-    <Projects />
-    <InfoSection {...homeObjThree}/>
-    <Footer/>-->
+    <!--Projects-->
+    <div id="Projects">
+        <h1 id="Titulo">Projects</h1>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="images/svg-3.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Airport Model</h5>
+                    <p class="card-text">Designed and developed airplanes and passengers traffic models using SIMIO simulation software. Tested 3 alternatives solutions to improve internal flow of pedestrians within the airport.Decreased the mean average time that pedestrians
+                        spent on the airport by 41%.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/svg-4.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Stocks Portfolio Analysis</h5>
+                    <p class="card-text">Implemented Python script using Jupyter notebook to estimate portfolio average expected returns and volatility. Applied optimization algorithms to maximize portfolio expected return and implemented advanced econometric models to estimate
+                        stock prices.Increased portfolio expected return by 34%.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Thesis-->
+    <div id="Thesis">
+        <h1 id="Titulo">Thesis</h1>
+        <p>The following video is a Simulation model to estimate CO2 emissions on 2030 on the city of Bogota </p>
+        <video controls>
+            <source src="images/videofin.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+    </div>
+
+    <!--Music-->
+    <div id="Music">
+        <h1 id="Titulo">Background Music</h1>
+        <audio controls autoplay>
+            <source src="images/music.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="bg-dark text-center text-white">
+        <h2>Contact Me</h2>
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/nicolas-bejar-2a7140190/" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/nicolasbejar" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
+
 
 </html>
